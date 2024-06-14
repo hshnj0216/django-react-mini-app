@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --nav-height: 10dvh;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #FFF;
+}
+
+nav{
+  height: var(--nav-height);
+
+}
+
+main{
+  height: calc(100dvh - var(--nav-height));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
+

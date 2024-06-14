@@ -1,0 +1,11 @@
+# .gitignore
+env/
+node_modules/
+.next/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+coverage/
+*.log
+*.lock
